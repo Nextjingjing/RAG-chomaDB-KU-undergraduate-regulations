@@ -27,17 +27,6 @@ For example:
 ```
 OPENAI_API_KEY=sk-proj-YOUR_OPENAI_API_KEY
 ```
-## Run with Docker
-Make sure you have created the `.env` file (based on `example.env`) before running the container.
-
-Build the Docker image:
-```sh
-docker build -t rag-ku .
-```
-Run the container with environment variables:
-```sh
-docker run -p 8888:8888 --env-file .env rag-ku
-```
 
 # dataset
 ### Kasetsart University Undergraduate Regulations B.E. 2566 (2023)

@@ -12,6 +12,7 @@ wheels/
 # Environment Variables
 .env
 *.env
+!example.env
 
 # ChromaDB storage
 chroma_db/

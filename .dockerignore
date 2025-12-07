@@ -1,0 +1,44 @@
+# Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments (local)
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project packaging
+build/
+dist/
+*.egg-info/
+
+# Version control
+.git/
+.gitignore
+
+# OS / editor files
+.DS_Store
+*.swp
+*.swo
+
+# Cache & logs
+*.log
+cache/
+*.sqlite3
+
+# ChromaDB storage
+**/chroma/
+**/chroma_db/
+**/index/
+**/db/
+**/storage/
+
+
+# Environment variable
+.env
+.env.*

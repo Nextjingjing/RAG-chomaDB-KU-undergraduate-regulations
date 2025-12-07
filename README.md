@@ -28,6 +28,23 @@ For example:
 OPENAI_API_KEY=sk-proj-YOUR_OPENAI_API_KEY
 ```
 
+## Docker
+
+```sh
+docker build -t my-rag-jupyter .
+docker run -it \
+  -p 8888:8888 \
+  --env-file .env \
+  -v "$(pwd)":/app \
+  my-rag-jupyter
+
+```
+Access JupyterLab
+Check the link with the token shown in the container logs.
+```
+http://127.0.0.1:8888/lab?token=<your_token_here>
+```
+
 # dataset
 ### Kasetsart University Undergraduate Regulations B.E. 2566 (2023)
 

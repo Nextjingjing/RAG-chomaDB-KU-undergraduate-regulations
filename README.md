@@ -7,15 +7,15 @@ cd RAG-chomaDB-KU-undergraduate-regulations
 ### Activate Virtual Environment
 - macOS / Linux
 ```
-$ source .venv/bin/activate
+source .venv/bin/activate
 ```
 - Windows (PowerShell)
 ```
-$ .venv\Scripts\activate
+.venv\Scripts\activate
 ```
 ## Install Dependencies with uv
 ```
-$ uv sync
+uv sync
 ```
 ## Environment Variables
 
